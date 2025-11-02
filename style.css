@@ -1,0 +1,42 @@
+body {
+    background-image: url(Képek/hatter.png);
+    color: whitesmoke;
+}
+.kepek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-items: center;
+    align-items: center;
+}
+.kepek img {
+    max-width: 200px;
+    max-height: 200px;
+}
+#tartalom {
+    margin: 0 auto; 
+}
+.rizsa {
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-size: 20px;
+}
+#fejlec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+    text-align: center;
+    text-transform: none;
+}
+#fejlec :hover {
+    color:whitesmoke;
+}
+.montage{ 
+    display: grid;  
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;         
+}
