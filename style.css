@@ -8,10 +8,13 @@ body {
     background-color: rgba(0, 0, 0, 0.85);
     justify-items: center;
     align-items: center;
+    
 }
 .kepek img {
-    max-width: 200px;
-    max-height: 200px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 10px solid white;
 }
 #tartalom {
     margin: 0 auto; 
@@ -39,4 +42,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;         
+}
+@media (max-width: 600px) {
+    .kepek {
+        grid-template-columns: 1fr;
+    }
 }
