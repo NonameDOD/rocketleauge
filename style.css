@@ -8,6 +8,8 @@ body {
     background-color: rgba(0, 0, 0, 0.85);
     justify-items: center;
     align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
     
 }
 .kepek img {
@@ -15,6 +17,8 @@ body {
   aspect-ratio: 1/1;
   object-fit: cover;
   border: 10px solid white;
+  border-radius: 10px;
+  margin-top: 5px;
 }
 #tartalom {
     margin: 0 auto; 
@@ -53,13 +57,43 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; 
-           
 }
 .montage iframe{
     border: 10px solid white;
+    border-radius: 10px;
+}
+#labfej {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 3px 6px;
+    border-radius: 10px;
+    max-width: 25% ;
+    border: 2px solid;
+}
+#labfej a {
+    color: aqua;
+    text-decoration: none;
+}
+#labfej :hover {
+    color:whitesmoke;
+    background-color: rgba(1, 255, 128, 0.644);
+    border-radius: 10px;
 }
 @media (max-width: 600px) {
     .kepek {
         grid-template-columns: 1fr;
+    }
+
+    #labfej {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.205);
+        padding: 3px 3px;
+        border-radius: 10px;
+        max-width: 30%;
+        border: 2px solid;
     }
 }
