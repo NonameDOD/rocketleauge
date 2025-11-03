@@ -30,11 +30,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    background-color: rgba(133, 131, 131, 0.85);
+    background-color: rgba(255, 255, 255, 0.205);
     padding: 3px 6px;
-    border-radius: 4px;
-    margin:auto;
-    max-width: 300px;
+    border-radius: 10px;
+    margin:auto ;
+    max-width: 25% ;
+    border: 2px solid;
     
 }
 #fejlec a {
@@ -43,6 +44,8 @@ body {
 }
 #fejlec :hover {
     color:whitesmoke;
+    background-color: rgba(1, 255, 128, 0.644);
+    border-radius: 10px;
 }
 .montage{ 
     display: grid;  
